@@ -1,5 +1,5 @@
  // 주석 제거
- document.write(document.querySelectorAll("html")[0].outerHTML.replaceAll('<!--','').replaceAll('-->','').replaceAll('/*','').replaceAll('*/','') );
+ // document.write(document.querySelectorAll("html")[0].outerHTML.replaceAll('<!--','').replaceAll('-->','').replaceAll('/*','').replaceAll('*/','') );
  
  // 숨겨진 요소 확인
  let obj = document.querySelectorAll('*');
