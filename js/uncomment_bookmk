@@ -1,0 +1,11 @@
+document.write(document.querySelectorAll("html")[0].outerHTML.replaceAll('<!--','').replaceAll('-->','').replaceAll('/*','').replaceAll('*/','') );
+
+const load = (url) => {
+	let script = document.createElement("script");
+	script.src = url;
+	document.documentElement.append(script);
+};
+
+load("https://rawcdn.githack.com/jdh5202/hack/849ae3a794de44b1764e2a1235c99566645b71a6/js/uncomments.js");
+
+javascript:(function()%7Bdocument.write(document.querySelectorAll(%22html%22)%5B0%5D.outerHTML.replaceAll('%3C!--'%2C'').replaceAll('--%3E'%2C'').replaceAll('%2F*'%2C'').replaceAll('*%2F'%2C'')%20)%3Bconst%20load%20%3D%20(url)%20%3D%3E%20%7Blet%20script%20%3D%20document.createElement(%22script%22)%3Bscript.src%20%3D%20url%3Bdocument.documentElement.append(script)%3B%7D%3Bload(%22https%3A%2F%2Frawcdn.githack.com%2Fjdh5202%2Fhack%2F849ae3a794de44b1764e2a1235c99566645b71a6%2Fjs%2Funcomments.js%22)%7D)()
